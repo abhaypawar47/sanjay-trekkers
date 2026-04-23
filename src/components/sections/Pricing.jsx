@@ -59,7 +59,7 @@ const Pricing = () => {
           {/* Benefits */}
           <ul className="space-y-4 mb-10 relative">
             {[
-              "Professional ex-military instructors",
+              "Professional instructors",
               "All safety equipment included",
               "Accommodation in camps/tents",
               "Nutritious high-energy meals",
