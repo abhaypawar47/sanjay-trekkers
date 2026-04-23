@@ -65,7 +65,7 @@ const Hero = () => {
             
           "
         >
-          Sanjay Tracking Adventure
+          Sanjay Trekking Adventure
           <span
             className="
             block mt-6
