@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-100: #d9ed92;
+  --color-mint-200: #b5e48c;
+  --color-mint-300: #99d98c;
+  --color-mint-400: #76c893;
+  --color-teal-100: #52b69a;
+  --color-teal-200: #34a0a4;
+  --color-teal-300: #168aad;
+  --color-blue-100: #1a759f;
+  --color-blue-200: #1e6091;
+  --color-blue-300: #184e77;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans antialiased text-gray-900 bg-white;
+  }
+}
