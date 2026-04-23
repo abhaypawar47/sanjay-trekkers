@@ -7,8 +7,7 @@ const features = [
   {
     icon: Shield,
     title: "Professional Trainers & Trackers",
-    description:
-      "Ex-Army and certified mountaineering experts guide every activity.",
+    description: "Certified mountaineering experts guide every activity.",
   },
   {
     icon: Users,
