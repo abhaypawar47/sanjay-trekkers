@@ -87,7 +87,7 @@ const Hero = () => {
           {[
             {
               icon: Calendar,
-              text: "7th–10th May 2026",
+              text: "7th–13th May 2026",
             },
             {
               icon: MapPin,
