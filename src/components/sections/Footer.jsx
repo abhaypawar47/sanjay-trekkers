@@ -2,12 +2,12 @@ import { Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-gray-100 via-white to-gray-100 border-t border-gray-200 dark:bg-[#0b0b0b] dark:border-white/10">
+    <footer className="bg-gradient-to-b from-gray-100 via-white to-gray-100 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-14">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
           {/* Branding */}
           <div>
-            <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+            <h3 className="text-2xl font-extrabold tracking-tight text-gray-900">
               Sanjay Tracking Adventure
             </h3>
 
@@ -25,11 +25,11 @@ const Footer = () => {
 
             {/* Numbers */}
             <div>
-              <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
+              <p className="text-sm font-semibold text-gray-500 mb-1">
                 Contact Naresh Lohara
               </p>
 
-              <div className="flex flex-wrap gap-4 text-gray-900 dark:text-white font-bold text-lg">
+              <div className="flex flex-wrap gap-4 text-gray-900 font-bold text-lg">
                 <a
                   href="tel:+919921322679"
                   className="hover:text-orange-500 transition"
@@ -37,7 +37,7 @@ const Footer = () => {
                   9921322679
                 </a>
 
-                <span className="text-gray-300 dark:text-white/20">|</span>
+                <span className="text-gray-300">|</span>
 
                 <a
                   href="tel:+919921322607"
@@ -51,10 +51,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 pt-6 border-t border-gray-200 dark:border-white/10 text-center">
-          <p className="text-sm font-medium text-gray-500 dark:text-gray-500">
+        <div className="mt-12 pt-6 border-t border-gray-200 text-center">
+          <p className="text-sm font-medium text-gray-500">
             © 2026{" "}
-            <span className="font-semibold text-gray-900 dark:text-white">
+            <span className="font-semibold text-gray-900">
               Sanjay Tracking Adventure
             </span>
             . All rights reserved.
